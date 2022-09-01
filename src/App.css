@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(241, 241, 241);
+}
+
+hr{
+  margin: 20px;
+}

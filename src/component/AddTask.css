@@ -1,0 +1,98 @@
+.add-task{ 
+    display: flex;
+    margin: 100px 20px 20px 20px ;
+    padding: 10px;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.add-taskInput{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.add-taskInput > input{ 
+    border: 1px solid darkgrey;
+    border-width: 0px 0px 1px 0px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+
+.add-taskInput > input:focus{  
+    outline: none;
+}
+
+.add-taskButton > button{
+    width: 150px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    color: white; 
+    cursor: pointer;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    margin-left: 30px;
+    margin-right: 10px;
+    font-size: 20px;
+    border: 1px solid black; 
+}
+
+.add-taskButton > button:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black; 
+    box-sizing: border-box;
+    transition: 200ms;
+}
+
+.add-taskButton > button:hover
+.plus-icon{ 
+    color: black; 
+}
+
+.add-taskButton > button:active{ 
+    border: 1px solid red; 
+    background-color: red; 
+    border: none;
+    transition: 200ms;
+
+}
+
+.plus-icon{ 
+    color: white; 
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+
+
+.plus-icon:active{ 
+    color: white; 
+}
+
+.add-taskButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task-completed{
+    border: 1px  ;
+    width: 150px; 
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    left: 9px;
+    
+    margin-bottom: 10px;
+}
+ 

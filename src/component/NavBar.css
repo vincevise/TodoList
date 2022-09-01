@@ -1,0 +1,39 @@
+.nav-bar{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: -1px;
+}
+
+.check-logo{
+    position: relative;
+    top: 2px;
+    margin-left: -9px;
+    font-size: 22px;
+}
+
+.nav-bar > h2{
+    margin-left: 20px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.search-bar{
+    margin-right: 20px;
+    flex-grow: 0.8;
+    border-radius: 10px;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+}
+
+.search-bar:focus{
+    outline: none;
+}

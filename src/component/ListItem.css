@@ -1,0 +1,80 @@
+.listItem-container{
+    border-radius: 10px; 
+    padding: 10px;
+    height: 200px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: white;
+    transition: 200ms;
+ }
+
+ .listItem-container-checked{
+    color: lightgray;
+    text-decoration-line: line-through;
+    border-radius: 10px; 
+    padding: 10px;
+    height: 200px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: white;
+    transition: 200ms;
+
+ }
+
+ 
+
+.listItem-header{
+    display: flex;
+    align-items: center;
+} 
+
+.listItem-header > input{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+} 
+
+ 
+
+.listItem-header > h3{
+    display: flex;
+    flex-grow: 1;
+}
+
+.trash-logo{
+    margin-right: 10px;
+    height: 20px;
+}
+
+.trash-logo:hover{
+    color: darkgray; 
+}
+
+.trash-logo:active{
+    color: red; 
+    transition: 200ms;
+}
+
+.listItem-container:hover{
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+
+hr {
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px; 
+    border: 0.5px solid lightgray;
+}
+
+.listItem-body{
+    height: 180px; 
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
